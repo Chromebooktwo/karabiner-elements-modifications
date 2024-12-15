@@ -1,3 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
     "description": "Press fn + Shift + \\ to make Mac go to sleep",
     "manipulators": [
@@ -85,6 +105,128 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "description": "Shift + F1 to F12 remap to F13 to F24",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "f1",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f13" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f2",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f14" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f3",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f15" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f4",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f16" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f5",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f17" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f6",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f18" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f7",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f19" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f8",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f20" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f9",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f21" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f10",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f22" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f11",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f23" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f12",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "f24" }],
+            "type": "basic"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
 
 
 
