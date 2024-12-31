@@ -1,1 +1,1 @@
-This is my karabiner-elements-complex_modifications
+This is my karabiner-elements-modifications
